@@ -11,17 +11,8 @@ import com.mysql.cj.protocol.Resultset;
 
 import common.DbCon;
 import dto.ProductDTO;
-/*
- * private Long no;
-	private String category;
-	private String name;
-	private String content;
-	private int price;
-	private int quentity;
-	private String images;
- */
 
-// 상품 등록, 상품 조회
+// 상품
 public class ProductDAO {
 	// 상품 등록
 	public void insertProduct(ProductDTO dto) throws Exception {

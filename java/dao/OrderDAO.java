@@ -10,15 +10,9 @@ import common.DbCon;
 import dto.OrderDTO;
 
 //장바구니 등록, 조회, 삭제
-/*
- * private String catego;
-	private String ordername;
-	private String content;
-	private String price;
-	private String images;
- */
 
 public class OrderDAO {
+	//상품 등록
 	public void insertOrder(OrderDTO dto) throws Exception {
 		String sql = "insert into orderlist(catego, ordername, content, price, images) values(?, ?, ?, ?, ?)";
 		try(Connection conn = DbCon.getConnection();
