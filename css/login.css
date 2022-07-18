@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+#container {
+	width: 1200px;
+	margin: 70px auto 50px;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.xans-member-login.ec-base-box.typeThin {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 550px;
+	height: 550px;
+}
+
+.ec-base-box.typeThin {
+	border-color: #d7d5d5;
+	border-width: 0px !important;
+}
+
+.ec-base-box {
+	border: 5px solid #e8e8e8;
+	color: #404040;
+}
+
+.xans-member-login .login {
+	padding: 0px 39px;
+	color: #2e2e2e;
+	width: 450px;
+	margin: auto;
+	font-size: 0;
+	position: absolute;
+	background: #fff;
+}
+
+.ec-base-box.typeThin h3.boxTitle.sel {
+	border-bottom: 3px solid #656565;
+	font-weight: 700 !important;
+}
+
+.ec-base-box.typeThin h3.boxTitle {
+	margin: 0 0 20px;
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	padding: 12px 0;
+	margin-bottom: 30px !important;
+	font-size: 19px !important;
+}
+
+.xans-member-login .login fieldset {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	padding: 0 0 0 0px;
+	border: none;
+	vertical-align: top;
+}
+
+.xans-member-login .login fieldset .id, .xans-member-login .login fieldset .password
+	{
+	overflow: hidden;
+	display: block;
+	width: 400px;
+	margin: 0 0 8px;
+	border: 1px solid #cecece;
+	border-radius: 0px;
+	color: #8f8f91;
+}
+
+.xans-member-login .login fieldset input[type=text], .xans-member-login .login fieldset input[type=password]
+	{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	padding: 10px;
+	border: 0 none;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: #5d5d5d;
+}
+
+input[type="text"] {
+	outline: none;
+}
+
+button.btn.btn-primary {
+	top: 0;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	margin-top: 10px;
+	font-size: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+}
+
+.xans-member-login .login fieldset ul {
+	overflow: hidden;
+	padding: 0px 0px 5px;
+	margin: 0;
+	border: 0;
+	text-align: right;
+}
+
+.xans-member-login .login fieldset li {
+	display: inline-block;
+	padding: 5 5px 13px;
+	list-style: none;
+}
+
+.xans-member-login .login fieldset li:after {
+	position: relative;
+	top: 1px;
+	right: -7px;
+	display: inline-block;
+	width: 1px;
+	height: 11px;
+	border-right: 1px solid #000;
+}
+
+.xans-member-login .login fieldset li a {
+	color: #000;
+	font-size: 13px;
+	text-decoration: none;
+}

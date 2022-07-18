@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../css/login.css" />
+
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<div class="topin">
+				<div class="topsns">
+					<ul>
+						<li><a href="">FACE BOOK</a></li>
+						<li><a href="">INSTAGRAM</a></li>
+						<li><a href="">YOUTUBE</a></li>
+						<li><a href="">BLOG</a></li>
+					</ul>
+				</div>
+				<div class="toplogin">
+					<ul>
+						<li><a href="signup.html">SIGNUP</a></li>
+						<li><a href="login.html">LOGIN</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="logologo">
+			<div class="logoin">
+				<div class="logologo">
+
+					<h1>
+						<a href="main.html">YMall</a>
+					</h1>
+
+				</div>
+				<div class="logosearch">
+					<form id="searchBarForm" action="search.jsp" method="get"
+						target="_self" enctype="multipart/form-data">
+						<input id="banner_action" name="banner_action" type="hidden">
+						<div class="xans-element- xans-layout xans-layout-searchheader">
+
+							<fieldset>
+								<legend>검색</legend>
+
+								<div class="searchinput">
+									<input id="keyword" name="keyword" class="inputTypeText"
+										type="text" autocomplete="off">
+								</div>
+								<div class="searchimg">
+									<img src="../otherimg/search.jpg" width="30" height="30" />
+								</div>
+							</fieldset>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu" style="position: relative; top: 0px;">
+			<div id="category">
+				<ul>
+					<li class="all"><a href="productList.jsp">ALL</a></li>
+					<li>
+						<div class="xans-element- xans-layout xans-layout-category">
+							<div class="position">
+								<ul>
+									<li class="outer"><a href="cateList.jsp?category=outer">OUTER</a></li>
+									<li class="top"><a href="cateList.jsp?category=top">TOP</a></li>
+									<li class="bottom"><a href="cateList.jsp?category=bottom">BOTTOM</a></li>
+									<li class="headwear"><a
+										href="cateList.jsp?category=headwear">HEADWEAR</a></li>
+									<li class="bag"><a href="cateList.jsp?category=bag">BAG</a></li>
+									<li class="acc"><a href="cateList.jsp?category=acc">ACC</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="container">
+			<form action="../jsp/login.jsp" method="post" target="_self">
+				<div
+					class="xans-element- xans-member xans-member-login ec-base-box typeThin">
+					<div class="login">
+						<h2 class="boxTitle">로그인</h2>
+						<fieldset>
+							<legend>회원로그인</legend>
+							<label class="id ePlaceholder" title="아이디"> <input
+								id="id" name="id" placeholder="아이디를 입력해주세요" type="text">
+							</label> <label class="password ePlaceholder" title="비밀번호"> <input
+								id="password" name="password" type="password"
+								placeholder="비밀번호를 입력해주세요">
+							</label>
+							<button type="submit" class="btn btn-primary">로그인</button>
+							<ul>
+								<li><a href="signup.html">회원가입</a></li>
+								<li><a href="#">아이디찾기</a></li>
+								<li><a href="#">비밀번호찾기</a></li>
+							</ul>
+						</fieldset>
+
+
+					</div>
+				</div>
+			</form>
+
+		</div>
+
+
+	</div>
+</body>
+</html>

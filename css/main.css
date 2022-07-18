@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Heebo', 'Roboto', 'Noto Sans KR', Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', sans-serif;
+	color: #333;
+	min-width: 1480px;
+	background: #fff;
+	font: 0.75em Verdana, Dotum, AppleGothic, sans-serif;
+	display: block;
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, img, p, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: 'Heebo', 'Roboto', 'Noto Sans KR', Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+form {
+	display: block;
+}
+
+input, select, textarea {
+	font-size: 100%;
+	color: #353535;
+	vertical-align: middle;
+	font-family: 'Heebo', 'Roboto', 'Noto Sans KR', Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', sans-serif;
+}
+
+input[type="submit"] {
+	right: 0px;
+}
+
+img, fieldset {
+	border: none;
+	vertical-align: top;
+}
+
+fieldset {
+	display: block;
+	margin-inline-start: 2px;
+	margin-inline-end: 2px;
+	padding-inline-start: 0.75em;
+	padding-inline-end: 0.75em;
+	padding-block-start: 0.35em;
+	padding-block-end: min-content;
+}
+
+legend {
+	visibility: hidden;
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 0;
+	height: 0;
+	line-height: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Heebo', 'Roboto', 'Noto Sans KR', Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', sans-serif;
+	font-size: 50px;
+}
+
+h3 {
+	background-color: black;
+	color: white;
+	height: 40px;
+	font-size: 30px;
+}
+
+table {
+	display: inline-block;
+	margin: 0px 0 50px;
+	vertical-align: top;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+#wrap {
+	color: #000;
+	width: 100%;
+	position: relative;
+	min-width: 1300px;
+}
+
+#top {
+	position: relative;
+	overflow: hidden;
+	height: 35px;
+	margin: 0;
+	background: #f8f8f8;
+}
+
+#top a {
+	color: #707070;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: -0.3px;
+	padding: 0 15px;
+}
+
+#top a:after {
+	content: "";
+	width: 1px;
+	height: 11px;
+	margin-top: 11px;
+	margin-left: 15px;
+	background: #707070;
+	position: absolute;
+}
+
+#logologo {
+	position: relative;
+	height: 100px;
+	margin: 0;
+	background: #fff;
+}
+
+#menu {
+	height: 50px;
+	margin: 0;
+	background: #fff;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	width: 100%;
+	z-index: 100;
+}
+
+#category {
+	width: 1300px;
+	height: 50px;
+	margin: auto;
+	position: relative;
+	font-size: 0;
+}
+
+#category .all .outer .top .bottom .headwear .bag .acc {
+	width: 100px;
+	height: 50px;
+	display: inline-block !important;
+}
+
+#category li {
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	left: 100px;
+	line-height: 50px;
+	font-weight: 500;
+	font-size: 13px;
+	color: #000;
+}
+
+#category li a {
+	font-weight: 500;
+	font-size: 13px;
+	color: #000;
+	padding: 0 29px;
+	text-transform: uppercase;
+	display: block;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logoin {
+	width: 1300px;
+	height: 130px;
+	margin: auto;
+	position: relative;
+}
+
+.logologo {
+	padding: 20px 30px 100px;
+}
+
+.logoscript {
+	position: absolute;
+	right: 30px;
+	top: 70px;
+	width: 220px;
+}
+
+.topin {
+	width: 1300px;
+	margin: auto;
+	position: relative;
+}
+
+.topsns {
+	height: 32px;
+	line-height: 32px;
+	left: -14px;
+	position: absolute;
+}
+
+.topsns li {
+	display: inline-block;
+}
+
+.toplogin {
+	height: 30px;
+	line-height: 30px;
+	right: -14px;
+	position: absolute;
+}
+
+.toplogin li {
+	display: inline-block;
+}
+
+.logosearch {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 220px;
+}
+
+.xans-element-.xans-layout.xans-layout-searchheader {
+	margin: 0px 0 0;
+	border: 1px solid #cecece;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0px 4px 10px -7px rgb(0 0 0/ 58%);
+	width: 218px;
+}
+
+.xans-element-.xans-layout.xans-layout-searchheader fieldset {
+	padding: 0px 0px;
+	color: #9a9a9a;
+	width: 198px;
+	height: 32px;
+	padding-left: 20px;
+}
+
+input#keyword {
+	width: 150px;
+	height: 24px;
+	border: 0;
+	line-height: 32px;
+	font-size: 12px;
+	color: #7c8389;
+	background: transparent;
+	padding: 0;
+}
+
+.searchinput {
+	z-index: 105;
+	position: absolute;
+	width: 150px;
+	height: 32px;
+	padding: 0 0 0 0px;
+	border: 0;
+	line-height: 32px;
+	font-size: 12px;
+	color: #7c8389;
+	background: transparent;
+}
+
+.searchResult {
+	margin: 30px 0 0;
+	overflow: hidden;
+	border: 1px solid #d7d5d5;
+	text-align: right;
+	line-height: 38px;
+}
+
+.xans-layout-category {
+	margin: 0 0 0px;
+	font-size: 0;
+}
+
+.xans-layout-category .position>ul>li {
+	z-index: 10;
+}
+
+.xans-layout-category .position>ul>li>a {
+	text-decoration: none;
+}
+
+.searchimg {
+	margin-left: 155px;
+}

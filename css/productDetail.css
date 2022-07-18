@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+#somethingin1200 {
+	width: 1200px !important;
+	margin: auto;
+	overflow: hidden;
+}
+
+#ssleft {
+	width: 622px;
+	margin: 0 44px;
+	vertical-align: top;
+	float: left;
+}
+
+#ssright {
+	position: relative;
+	display: inline-block;
+	width: 396px;
+	margin: 0 45px;
+	vertical-align: top;
+}
+
+#ssinfo1 {
+	padding-top: 40px;
+}
+
+#ssinfo2 {
+	border-top: 1px solid #cecece;
+}
+
+.detailArea {
+	padding: 0 0 0 0px;
+	position: relative;
+	margin: 20px auto;
+	padding: 0px 0 0 0;
+}
+
+.detailArea .imgArea {
+	float: left;
+	width: 620px;
+}
+
+.detailArea .infoArea {
+	position: relative;
+	text-align: left;
+	width: 396px;
+	border-top: 3px solid #000;
+	padding: 0 2px;
+	padding-top: 10px;
+}
+
+.detailArea .infoArea h2 {
+	line-height: 20px;
+	font-size: 15.5px;
+	font-weight: 300 !important;
+}
+
+a.btnBuy {
+	color: white;
+	background-color: black;
+}
+
+a.btnCart {
+	background-color: #cecece;
+}
+
+.detailArea .infoArea table {
+	border: 0;
+	font-size: 40px;
+	margin: 10px 0 0;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.xans-element-.xans-product.xans-product-action {
+	border-top: 1px solid #cecece;
+}
+
+.ec-base-button[class*="gColumn"] {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.ec-base-button {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.ec-base-button[class*="gColumn"] [class^='btn'] {
+	margin: 0px !important;
+	margin-left: -1px !important;
+	padding: 12px 16px !important;
+}
+
+.deliveryss {
+	height: 50px;
+	border-top: 1px solid black;
+}
+
+.list {
+	padding-bottom: 10px;
+	color: gray;
+}
