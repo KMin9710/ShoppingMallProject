@@ -118,7 +118,7 @@
 > - 각각의 Product들의 정보를 저장하는 형식
 
 ## EER Diagram
-<img width="586" alt="EER DIAGRAM" src="https://user-images.githubusercontent.com/107735999/179928290-56fec1b9-9154-4b5a-99c1-a06a142d4fca.png">
+<img width="872" alt="2022-07-21" src="https://user-images.githubusercontent.com/107735999/180172531-f1cf4552-005f-40e2-bb33-1ee406fa0c3d.png">
 
 
 
